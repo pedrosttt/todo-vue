@@ -51,7 +51,7 @@ const cadastraTarefa = () => {
     titulo: estado.tarefaTemp,
     finalizada: false,
   }
-  estado.taferas.push(tarefaNova);
+  estado.tarefas.push(tarefaNova);
   estado.tarefaTemp = '';
 }
 
